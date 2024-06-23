@@ -3,7 +3,7 @@ library(MASS)
 library(dplyr)
 
 # Set parameters
-p <- 500      # Number of nodes
+p <- 200      # Number of nodes
 n <- 100      # Sample number
 prob <- 1 - 0.9   # Sparsity Rate
 num_matrices <- 200 # Number of precision matrices and sample sets
